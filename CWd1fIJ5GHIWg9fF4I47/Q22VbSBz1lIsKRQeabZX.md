@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## DC5
 
-You can use the [editor on GitHub](https://github.com/n8UR3RmH9M/08gTNzCvTQrIiCN28YTn/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In this article we will learn how to gain root access to DC-5 machine. 
+This machine is exploited using a combination of web server access log poisoning and a local file inclusion vulnerability in a web application
+resulting in remote code execution(RCE).
 
 ### Markdown
 
