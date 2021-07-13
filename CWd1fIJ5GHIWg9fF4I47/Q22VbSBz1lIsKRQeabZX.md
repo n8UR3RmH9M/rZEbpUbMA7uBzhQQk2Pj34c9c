@@ -8,8 +8,6 @@ This machine is exploited using a combination of web server access log poisoning
 **nmap**
 We start by running nmap scan against all ports:
 
-
-
 ```markdown
 ┌──(ramdac㉿virlnx)-[~]
 └─$ nmap -sCV -Pn -p- -o nmap 192.168.120.57
