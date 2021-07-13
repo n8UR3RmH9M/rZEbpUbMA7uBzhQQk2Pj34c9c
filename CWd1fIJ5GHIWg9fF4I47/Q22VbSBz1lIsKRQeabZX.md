@@ -3,6 +3,8 @@
 In this article we will learn how to gain root access to DC-5 machine. 
 This machine is exploited using a combination of web server access log poisoning and a local file inclusion vulnerability (LFI) in a web application resulting in remote code execution (RCE). The ultimate goal of this challenge is to get root and to read the one and only flag.
 
+For more details see [DC Challenges](https://www.five86.com/dc-5.html).
+
 ### Enumeration
 
 We start by running nmap scan against all ports:
@@ -34,7 +36,7 @@ PORT      STATE SERVICE VERSION
 
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
 
 ### Jekyll Themes
 
