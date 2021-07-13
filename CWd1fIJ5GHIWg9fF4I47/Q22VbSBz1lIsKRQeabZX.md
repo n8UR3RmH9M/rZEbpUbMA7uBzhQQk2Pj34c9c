@@ -7,7 +7,7 @@ For more details see [DC Challenges](https://www.five86.com/dc-5.html).
 
 ### Enumeration
 
-We start by running nmap scan against all ports:
+We start by running nmap scan against the target DC-5 192.168.120.57 running in our virtual machine environment.
 
 ```markdown
 ┌──(ramdac㉿virlnx)-[~]
