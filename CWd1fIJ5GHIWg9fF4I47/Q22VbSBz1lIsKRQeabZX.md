@@ -1,7 +1,6 @@
 ## DC-5 Summary
 
-In this article we will learn how to gain root access to DC-5 machine. 
-This machine is exploited using a combination of web server access log poisoning and a local file inclusion vulnerability (LFI) in a web application resulting in remote code execution (RCE). The ultimate goal of this challenge is to get root and to read single flag.
+DC-5 is another purposely built vulnerable lab with the intent of gaining experience in the world of penetration testing.This machine is exploited using a combination of web server access log poisoning and a local file inclusion vulnerability (LFI) in a web application resulting in remote code execution (RCE). The ultimate goal of this challenge is to get root and to read single flag.
 
 For more details see [DC Challenges](https://www.five86.com/dc-5.html).
 
