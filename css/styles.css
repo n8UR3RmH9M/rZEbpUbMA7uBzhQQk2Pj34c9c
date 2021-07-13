@@ -457,7 +457,7 @@ mark,
 
 .initialism {
   font-size: 90%;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .blockquote {
@@ -9771,7 +9771,7 @@ button.bg-dark:focus {
 }
 
 .text-uppercase {
-  text-transform: uppercase !important;
+  text-transform: none !important;
 }
 
 .text-capitalize {
@@ -10048,7 +10048,7 @@ p.lead {
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
-  text-transform: uppercase;
+  text-transform: none;
 }
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
