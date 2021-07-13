@@ -1,29 +1,40 @@
 ## DC-5 Summary
 
 In this article we will learn how to gain root access to DC-5 machine. 
-This machine is exploited using a combination of web server access log poisoning and a local file inclusion vulnerability (LFI) in a web application
-resulting in remote code execution (RCE).
+This machine is exploited using a combination of web server access log poisoning and a local file inclusion vulnerability (LFI) in a web application resulting in remote code execution (RCE). The ultimate goal of this challenge is to get root and to read the one and only flag.
 
-### Markdown
+### Enumeration
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**nmap**
+We start by running nmap scan against all ports:
+
+
 
 ```markdown
-Syntax highlighted code block
+┌──(ramdac㉿virlnx)-[~]
+└─$ nmap -sCV -Pn -p- -o nmap 192.168.120.57
+Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-07-13 15:18 EDT
+Nmap scan report for 192.168.120.57
+Host is up (0.0018s latency).
+Not shown: 65532 closed ports
+PORT      STATE SERVICE VERSION
+80/tcp    open  http    nginx 1.6.2
+|_http-server-header: nginx/1.6.2
+|_http-title: Welcome
+111/tcp   open  rpcbind 2-4 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2,3,4        111/tcp   rpcbind
+|   100000  2,3,4        111/udp   rpcbind
+|   100000  3,4          111/tcp6  rpcbind
+|   100000  3,4          111/udp6  rpcbind
+|   100024  1          42782/tcp   status
+|   100024  1          48194/udp   status
+|   100024  1          55162/udp6  status
+|_  100024  1          60306/tcp6  status
+42782/tcp open  status  1 (RPC #100024)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
