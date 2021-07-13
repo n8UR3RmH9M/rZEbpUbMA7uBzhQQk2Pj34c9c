@@ -1,2 +1,5 @@
+title: Dark X
 theme: jekyll-theme-slate
-name: hellow ll
+exclude:
+  - README.md
+  - CNAME
