@@ -5,7 +5,6 @@ This machine is exploited using a combination of web server access log poisoning
 
 ### Enumeration
 
-**nmap**
 We start by running nmap scan against all ports:
 
 ```markdown
