@@ -1,7 +1,7 @@
-## DC5
+## DC-5 Summary
 
 In this article we will learn how to gain root access to DC-5 machine. 
-This machine is exploited using a combination of web server access log poisoning and a local file inclusion vulnerability in a web application
+This machine is exploited using a combination of web server access log poisoning and a local file inclusion vulnerability (LFI) in a web application
 resulting in remote code execution(RCE).
 
 ### Markdown
