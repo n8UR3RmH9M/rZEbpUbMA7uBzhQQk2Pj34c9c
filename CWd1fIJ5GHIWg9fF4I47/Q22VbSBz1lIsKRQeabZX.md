@@ -9,7 +9,7 @@ For more details see [DC Challenges](https://www.five86.com/dc-5.html).
 
 We start by running ***nmap*** scan against the target DC-5 192.168.120.57 running in our virtual machine environment.
 
-```shell
+```s
 ┌──(ramdac㉿virlnx)-[~]
 └─$ nmap -sCV -Pn -p- -o nmap 192.168.120.57
 Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
