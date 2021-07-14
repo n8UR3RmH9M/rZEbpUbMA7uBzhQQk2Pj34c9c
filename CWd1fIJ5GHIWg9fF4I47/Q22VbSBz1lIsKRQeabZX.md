@@ -1,6 +1,6 @@
 ## DC-5 Summary
 
-Purposely built vulnerable with the intent of gaining experience in the world of penetration testing. Susceptible to web server access log poisoning and a local file inclusion vulnerability (LFI) resulting in remote code execution (RCE). The ultimate goal is to get root and to read the flag.
+Purposely built vulnerable with the intent of gaining experience in the world of penetration testing. Susceptible to web server access log poisoning and a local file inclusion vulnerability (LFI) resulting in remote code execution (RCE). The ultimate goal is to get access to a root user to read the flag.
 
 For more details see [DC Challenges](https://www.five86.com/dc-5.html).
 
