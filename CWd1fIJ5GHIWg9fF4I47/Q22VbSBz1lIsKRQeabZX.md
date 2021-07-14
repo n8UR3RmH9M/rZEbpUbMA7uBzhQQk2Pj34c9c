@@ -1,6 +1,6 @@
 ## DC-5 Summary
 
-Purposely built vulnerable lab machine with the intent of gaining experience in the world of penetration testing. Susceptible to web server access log poisoning and a local file inclusion vulnerability (LFI) resulting in remote code execution (RCE). The ultimate goal is to get access to a root user to read the flag.
+Purposely built vulnerable lab machine with the intent of gaining experience in the world of penetration testing. Susceptible to web server access log poisoning and a local file inclusion vulnerability (LFI) resulting in remote code execution (RCE). The ultimate goal is to get access to a root user and read the flag.
 
 For more details see [DC Challenges](https://www.five86.com/dc-5.html).
 
@@ -38,7 +38,7 @@ PORT      STATE SERVICE VERSION
 From **nmap** result we found three available ports open **80,111,42782**.
 
 #### Web Enumeration
-We start exploring the webpage for hints we notice a contact form which seems interesting. We filled the form and submitted it.
+Exploring the webpage for hints we notice a contact form which seems interesting. We filled the form and submitted it.
 
 ![](https://com.ramdac.sh/assets/img/profile.jpg?v=1&s=100)
 
