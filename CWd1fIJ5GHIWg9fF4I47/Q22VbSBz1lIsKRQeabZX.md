@@ -42,9 +42,7 @@ We start exploring the webpage for hints we notice a contact form which seems in
 
 ![](https://com.ramdac.sh/assets/img/profile.jpg?v=1&s=100)
 
-After submitting the form we are redirected to *Thankyou.php* page. Refreshing the page several times we the notice the changes in **Copyright year 2020 or 2019**.
-
-
+After submitting the form we are redirected to *Thankyou.php* page. Refreshing the page several times we notice the changes in **Copyright year** text 2020 or 2019.
 
 ### Exploitation
 
