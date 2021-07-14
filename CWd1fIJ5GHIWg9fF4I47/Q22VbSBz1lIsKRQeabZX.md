@@ -33,7 +33,13 @@ PORT      STATE SERVICE VERSION
 |_  100024  1          60306/tcp6  status
 42782/tcp open  status  1 (RPC #100024)
 
+
 ```
+The scan result shows port 80,111,42782 are open. We try to access the http server landing page by navigating to our target http:///192.168.120.57.
+
+![](https://com.ramdac.sh/assets/img/profile.jpg?v=4&s=200)
+
+#### Web Enumeration
 
 ### Jekyll Themes
 
