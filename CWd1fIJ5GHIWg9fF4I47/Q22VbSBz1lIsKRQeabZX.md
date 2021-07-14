@@ -6,7 +6,7 @@ For more details see [DC Challenges](https://www.five86.com/dc-5.html).
 
 ### Enumeration
 
-We start by running ***nmap*** scan against the target DC-5 192.168.120.57 running in our virtual machine environment.
+We start by running ***nmap*** scan against our target DC-5 192.168.120.57 running in virtual machine in my environment.
 
 ```javascript
 ┌──(ramdac㉿virlnx)-[~]
@@ -33,14 +33,18 @@ PORT      STATE SERVICE VERSION
 |_  100024  1          60306/tcp6  status
 42782/tcp open  status  1 (RPC #100024)
 
-
 ```
 
-From nmap result we found HTTP service is running on port 80. Exploring the webpage for hints. We notice a contact form which seems interesting. We filled the form and submitted it.
+From ***nmap*** result we found three available ports open 80,111,42782.
+
+#### Web Enumeration
+We start exploring the webpage for hints we notice a contact form which seems interesting. We filled the form and submitted it.
 
 ![](https://com.ramdac.sh/assets/img/profile.jpg?v=1&s=100)
 
-#### Web Enumeration
+After submitting the form we were redirected to Thankyou.php page. Refreshing the page several times we the notice the changes in Copyrith year 2020 or 2019.
+
+
 
 ### Exploitation
 
