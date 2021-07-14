@@ -6,7 +6,7 @@ For more details see [DC Challenges](https://www.five86.com/dc-5.html).
 
 ### Enumeration
 
-We start by running ***nmap*** scan against our target DC-5 192.168.120.57 running in virtual machine in my environment.
+We start by running **nmap** scan against our target DC-5 192.168.120.57 running in virtual machine in my environment.
 
 ```javascript
 ┌──(ramdac㉿virlnx)-[~]
@@ -35,14 +35,14 @@ PORT      STATE SERVICE VERSION
 
 ```
 
-From ***nmap*** result we found three available ports open ***80,111,42782***.
+From **nmap** result we found three available ports open **80,111,42782**.
 
 #### Web Enumeration
 We start exploring the webpage for hints we notice a contact form which seems interesting. We filled the form and submitted it.
 
 ![](https://com.ramdac.sh/assets/img/profile.jpg?v=1&s=100)
 
-After submitting the form we are redirected to *Thankyou.php* page. Refreshing the page several times we the notice the changes in ***Copyright year 2020 or 2019***.
+After submitting the form we are redirected to *Thankyou.php* page. Refreshing the page several times we the notice the changes in **Copyright year 2020 or 2019**.
 
 
 
