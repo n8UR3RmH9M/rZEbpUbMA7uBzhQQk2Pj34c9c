@@ -37,7 +37,7 @@ PORT      STATE SERVICE VERSION
 ```
 The scan result shows port 80,111,42782 are open. We try to access the http server landing page by navigating to our target http:///192.168.120.57.
 
-![](https://com.ramdac.sh/assets/img/profile.jpg?v=4&s=200)
+![](https://com.ramdac.sh/assets/img/profile.jpg?v=1&s=200)
 
 #### Web Enumeration
 
