@@ -35,14 +35,14 @@ PORT      STATE SERVICE VERSION
 
 ```
 
-From ***nmap*** result we found three available ports open 80,111,42782.
+From ***nmap*** result we found three available ports open ***80,111,42782***.
 
 #### Web Enumeration
 We start exploring the webpage for hints we notice a contact form which seems interesting. We filled the form and submitted it.
 
 ![](https://com.ramdac.sh/assets/img/profile.jpg?v=1&s=100)
 
-After submitting the form we were redirected to Thankyou.php page. Refreshing the page several times we the notice the changes in Copyrith year 2020 or 2019.
+After submitting the form we are redirected to *Thankyou.php* page. Refreshing the page several times we the notice the changes in ***Copyright year 2020 or 2019***.
 
 
 
