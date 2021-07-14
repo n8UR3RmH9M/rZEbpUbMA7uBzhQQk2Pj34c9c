@@ -8,7 +8,7 @@ For more details see [DC Challenges](https://www.five86.com/dc-5.html).
 
 We start by running ***nmap*** scan against the target DC-5 192.168.120.57 running in our virtual machine environment.
 
-```VB
+```javascript
 ┌──(ramdac㉿virlnx)-[~]
 └─$ nmap -sCV -Pn -p- -o nmap 192.168.120.57
 Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
@@ -35,15 +35,21 @@ PORT      STATE SERVICE VERSION
 
 
 ```
-The scan result shows port 80,111,42782 are open. We try to access the http server landing page by navigating to our target http:///192.168.120.57.
+
+From nmap result we found HTTP service is running on port 80. Exploring the webpage for hints. We notice a contact form which seems interesting. We filled the form and submitted it.
 
 ![](https://com.ramdac.sh/assets/img/profile.jpg?v=1&s=100)
 
 #### Web Enumeration
 
-### Jekyll Themes
+### Exploitation
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/n8UR3RmH9M/08gTNzCvTQrIiCN28YTn/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Layout
+
+### Local Privilege Escalation
+
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
 
 ### Support or Contact
 
