@@ -42,7 +42,6 @@ Exploring the webpage for hints we notice a contact form which seems interesting
 
 ![](https://com.ramdac.sh/assets/img/8JCiWyCRbq579sarPEMX.PNG?v=1&s=100)
 
-
 We filled the form and submitted it.
 
 ![](https://com.ramdac.sh/assets/img/Ljo7xL1tCkrwY8a6XEHG.PNG?v=1&s=100)
