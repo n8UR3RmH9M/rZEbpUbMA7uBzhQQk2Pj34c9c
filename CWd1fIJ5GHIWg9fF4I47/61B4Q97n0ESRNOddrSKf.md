@@ -16,6 +16,16 @@ sudo systemctl enable docker --now && \
 sudo usermod -aG docker $USER && \
 docker && \
 docker pull rustscan/rustscan:2.0.0 && \
-echo "alias rscan='sudo docker run -it --rm --name rustscan rustscan:2.0.0'" >> /home/kali/.zshrc && \
+docker images && \
+echo "alias rscan='sudo docker run -it --rm --name rustscan rustscan/rustscan:2.0.0'" >> /home/kali/.zshrc && \
 source /home/kali/.zshrc
+```
+
+Open the command rscan or rustscan --help to view options and details.
+
+```sh
+rscan --help
+
+# scanning target mahcine
+rscan 192.168.1.100 -b 500 -t 1024
 ```
