@@ -16,6 +16,6 @@ sudo systemctl enable docker --now && \
 sudo usermod -aG docker $USER && \
 docker && \
 docker pull rustscan/rustscan:2.0.0 && \
-echo "alias rustscan='sudo docker run -it --rm --name rustscan rustscan:2.0.0'" >> /home/kali/.zshrc && \
+echo "alias rscan='sudo docker run -it --rm --name rustscan rustscan:2.0.0'" >> /home/kali/.zshrc && \
 source /home/kali/.zshrc
 ```
