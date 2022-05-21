@@ -25,7 +25,6 @@ Open the command rscan or rustscan --help to view options and details.
 
 ```sh
 rscan --help
-
-# scanning target mahcine
+# scanning target machine
 rscan 192.168.1.100 -b 500 -t 1024
 ```
