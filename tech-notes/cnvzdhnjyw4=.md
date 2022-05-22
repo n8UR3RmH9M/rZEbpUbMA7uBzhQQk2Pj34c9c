@@ -16,13 +16,11 @@ echo "alias rscan='sudo docker run -it --rm --name rustscan rustscan/rustscan:2.
 source /home/kali/.zshrc
 ```
 
-Open the command rscan or rustscan --help to view options and details.
+Open the command `rscan --help` or `rustscan --help` to view options and details.
 
 ```sh
-rscan --help
 # scanning target machine
 rscan 192.168.1.100 -b 500 -t 1024
 ```
-
 
 For more details see [RustScan Project](https://github.com/RustScan/RustScan).
