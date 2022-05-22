@@ -1,13 +1,11 @@
-## RustScan Faster NMAP Scanning
+## Find all open ports fast with RustScan.
 
-Find all open ports fast with RustScan.
 For more details see [RustScan Project](https://github.com/RustScan/RustScan).
 
 ### Installation
 For this guide, we will install using a docker image. You can, however, install with different options on the [Github Project](https://github.com/RustScan/RustScan).
 
 To install, using docker image as of writing the latest version is  [rustscan:2.0.0](https://hub.docker.com/r/rustscan/rustscan).
-
 
 ```sh
 sudo apt update && \
