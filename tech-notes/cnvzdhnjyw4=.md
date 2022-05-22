@@ -1,4 +1,4 @@
-## Find all open ports fast with RustScan.
+## Find all open ports fast with RustScan
 
 For more details see [RustScan Project](https://github.com/RustScan/RustScan).
 
