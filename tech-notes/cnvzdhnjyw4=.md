@@ -1,11 +1,8 @@
 ## Find all open ports fast with RustScan
 
-For more details see [RustScan Project](https://github.com/RustScan/RustScan).
+For this guide we will install using a docker image. However you can install with different options check the [Github Project](https://github.com/RustScan/RustScan).
 
-### Installation
-For this guide, we will install using a docker image. You can, however, install with different options on the [Github Project](https://github.com/RustScan/RustScan).
-
-To install, using docker image as of writing the latest version is  [rustscan:2.0.0](https://hub.docker.com/r/rustscan/rustscan).
+To install using docker image as of writing the latest version is  [rustscan:2.0.0](https://hub.docker.com/r/rustscan/rustscan).
 
 ```sh
 sudo apt update && \
@@ -26,3 +23,6 @@ rscan --help
 # scanning target machine
 rscan 192.168.1.100 -b 500 -t 1024
 ```
+
+
+For more details see [RustScan Project](https://github.com/RustScan/RustScan).
