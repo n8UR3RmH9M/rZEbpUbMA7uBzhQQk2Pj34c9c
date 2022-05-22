@@ -40,11 +40,11 @@ From **nmap** result we found three available ports open **80,111,42782**.
 #### Web Enumeration
 Exploring the webpage for hints we notice a contact form which seems interesting. 
 
-<img src="https://com.ramdac.sh/assets/img/8JCiWyCRbq579sarPEMX.PNG" width="1127" height="477">
+<img src="https://blloren.com/assets/img/8JCiWyCRbq579sarPEMX.PNG" width="1127" height="477">
 
 We filled the form and submitted it.
 
-<img src="https://com.ramdac.sh/assets/img/Ljo7xL1tCkrwY8a6XEHG.PNG" width="1127" height="477">
+<img src="https://blloren.com/assets/img/Ljo7xL1tCkrwY8a6XEHG.PNG" width="1127" height="477">
 
 After submitting the form we are redirected to *Thankyou.php* page. Refreshing the page several times we notice the changes in **Copyright year** text 2020 or 2019.
 
