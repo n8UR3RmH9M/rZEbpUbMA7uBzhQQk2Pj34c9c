@@ -6,10 +6,14 @@ To install using docker image as of writing the latest version is  [rustscan:2.0
 
 ```sh
 sudo apt update && \
-sudo apt install -y docker.io && \
-sudo systemctl enable docker --now && \
-sudo usermod -aG docker $USER && \
-docker && \
+sudo apt install -y docker.io
+sudo systemctl enable docker --now
+sudo usermod -aG docker ${USER}
+docker
+
+
+# reboot the system
+
 docker pull rustscan/rustscan:2.0.0 && \
 docker images && \
 echo "alias rscan='sudo docker run -it --rm --name rustscan rustscan/rustscan:2.0.0'" >> /home/kali/.zshrc && \
