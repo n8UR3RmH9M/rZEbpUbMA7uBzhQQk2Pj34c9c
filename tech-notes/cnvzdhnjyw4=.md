@@ -11,13 +11,12 @@ sudo systemctl enable docker --now
 sudo usermod -aG docker ${USER}
 docker
 
-
 # reboot the system
 
 docker pull rustscan/rustscan:2.0.0 && \
 docker images && \
-echo "alias rscan='sudo docker run -it --rm --name rustscan rustscan/rustscan:2.0.0'" >> /home/kali/.zshrc && \
-source /home/kali/.zshrc
+echo "alias rscan='sudo docker run -it --rm --name rustscan rustscan/rustscan:2.0.0'" >> /home/${USER}/.zshrc && \
+source /home/${USER}/.zshrc
 ```
 
 Open the command `rscan --help` or `rustscan --help` to view options and details.
