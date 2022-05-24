@@ -1,4 +1,4 @@
-## DC-5 Summary
+## vulnhub: dc-5
 
 Purposely built vulnerable lab machine with the intent of gaining experience in the world of penetration testing. Susceptible to web server access log poisoning and a local file inclusion vulnerability (LFI) resulting in remote code execution (RCE). The ultimate goal is to get access to a root user and read the flag.
 
