@@ -15,4 +15,8 @@
 |:---	|---:|
 |`smbclient \\\\10.10.114.22\\C$ -U administrator` <br/> `smbclient \\\\10.10.114.22\\C$`|connect to remote smb shares|
 |:---	|---:|
+|`echo -n blloren.com | base64`|encode to base64|
+|:---	|---:|
+|`echo 'Ymxsb3Jlbi5jb20=' | base64 -d`|decode to base64|
+|:---	|---:|
 
