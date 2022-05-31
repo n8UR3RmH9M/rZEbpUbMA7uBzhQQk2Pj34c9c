@@ -11,9 +11,9 @@
 |:---	|---:|
 |`hashcat -m 1710 -a 0 hash:salt  /usr/share/wordlists/rockyou.txt`|decrypting sha512 salted password|
 |:---	|---:|
-|`smbclient -L \\\\10.10.114.22`|list remote smb shares|
+|`smbclient -N -L //10.10.114.22`|list remote smb shares|
 |:---	|---:|
-|`smbclient \\\\10.10.114.22\\C$ -U administrator` <br/> `smbclient \\\\10.10.114.22\\C$`|connect to remote smb shares|
+|`smbclient //10.10.114.22/C$ -U administrator` <br/> `smbclient //10.10.114.22/C$`|connect to remote smb shares|
 |:---	|---:|
 |`echo -n blloren.com | base64`|encode to base64|
 |:---	|---:|
