@@ -19,8 +19,9 @@
 |:---	|---:|
 |`echo 'Ymxsb3Jlbi5jb20=' | base64 -d`|decode to base64|
 |:---	|---:|
-|`echo 'Ymxsb3Jlbi5jb20=' | base64 -d`|decode to base64|
+|`xfreerdp /v:10.129.195.243 /cert:ignore /u:Administrator`|x11 Remote Desktop|
 |:---	|---:|
-|`echo 'Ymxsb3Jlbi5jb20=' | base64 -d`|decode to base64|
-
+|`redis-cli $host` <br/> 
+`>info # get db information`  <br/> |NoSQL connect to redis host|
+|:---	|---:|
 
