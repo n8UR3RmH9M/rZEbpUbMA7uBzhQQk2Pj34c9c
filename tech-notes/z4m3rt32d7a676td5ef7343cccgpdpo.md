@@ -21,6 +21,6 @@
 |:---	|---:|
 |`xfreerdp /v:10.129.195.243 /cert:ignore /u:Administrator`|x11 Remote Desktop|
 |:---	|---:|
-|`redis-cli $host` <br/> `>info # et db information`  <br/> `>info keyspace #keyspace section provides statistics on the main directory` <br/> `select 0 #select desired database using the index number` <br/> `keys * #list keys present in the database` <br/> `get var1 #retrieve value for key var1`|NoSQL connect to redis host|
+|`redis-cli $host` <br/> `>info # et db information`  <br/> `>info keyspace #keyspace section provides statistics on the main directory` <br/> `>select 0 #select desired database using the index number` <br/> `>keys * #list keys present in the database` <br/> `>get var1 #retrieve value for key var1`|NoSQL connect to redis host|
 |:---	|---:|
 
