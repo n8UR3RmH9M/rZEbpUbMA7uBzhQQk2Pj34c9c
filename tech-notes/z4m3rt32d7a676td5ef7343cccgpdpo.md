@@ -19,4 +19,6 @@
 |:---	|---:|
 |`echo 'Ymxsb3Jlbi5jb20=' | base64 -d`|decode to base64|
 |:---	|---:|
+|`echo 'Ymxsb3Jlbi5jb20=' | base64 -d`|decode to base64|
+
 
